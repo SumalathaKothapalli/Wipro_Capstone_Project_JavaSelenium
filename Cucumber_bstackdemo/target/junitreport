@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="349.087" tests="19" skipped="0" failures="0" errors="0" timestamp="2025-09-07T17:35:34.166869600Z">
+<testcase classname="validate signin page" name="Check for valid credentials - #1.1" time="13.732">
+<system-out><![CDATA[
+Given signin page should be open in default browser.........................passed
+When click on signin button and enter demouser and testingisfun99...........passed
+And click on loginin button check success...................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate signin page" name="Check for valid credentials - #1.2" time="12.41">
+<system-out><![CDATA[
+Given signin page should be open in default browser.........................passed
+When click on signin button and enter image_not_loading_user and testingisfun99.passed
+And click on loginin button check success...................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate signin page" name="Check for valid credentials - #1.3" time="12.987">
+<system-out><![CDATA[
+Given signin page should be open in default browser.........................passed
+When click on signin button and enter existing_orders_user and testingisfun99.passed
+And click on loginin button check success...................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate signin page" name="Check for valid credentials - #1.4" time="11.652">
+<system-out><![CDATA[
+Given signin page should be open in default browser.........................passed
+When click on signin button and enter fav_user and testingisfun99...........passed
+And click on loginin button check success...................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate signin page" name="Check for valid credentials - #1.5" time="12.303">
+<system-out><![CDATA[
+Given signin page should be open in default browser.........................passed
+When click on signin button and enter locked_user and testingisfun99........passed
+And click on loginin button check success...................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search a product in bstackdemo" name="validate search feature - #1.1" time="15.488">
+<system-out><![CDATA[
+Given login user and search button available................................passed
+When Enter iphone12 item and then press search icon.........................passed
+Then List of output relevant to input.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search a product in bstackdemo" name="validate search feature - #1.2" time="15.305">
+<system-out><![CDATA[
+Given login user and search button available................................passed
+When Enter iphone item and then press search icon...........................passed
+Then List of output relevant to input.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search a product in bstackdemo" name="validate search feature - #1.3" time="18.221">
+<system-out><![CDATA[
+Given login user and search button available................................passed
+When Enter iphone13 item and then press search icon.........................passed
+Then List of output relevant to input.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add To Cart and Delete From Cart in bstackdemo" name="Add and delete any product" time="15.154">
+<system-out><![CDATA[
+Given Product is searched on home page......................................passed
+When add product to cart....................................................passed
+And Open cart and remove product............................................passed
+Then check product is deleted...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkout process in bstackdemo" name="Home Page checkout flow - #1.1" time="51.245">
+<system-out><![CDATA[
+Given user opens the site and adds a product to the cart....................passed
+And user click on checkout button...........................................passed
+And user signs in with valid credentials....................................passed
+When user enters demo user MainStreet AndhraPradesh 123456..................passed
+Then checkout process completes successfully................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Access Orders Page in bstackdemo" name="User clicks orders button, logs in if required, and views orders page" time="27.98">
+<system-out><![CDATA[
+Given user is already signed in, has added products to cart, and checked out.passed
+When user clicks the orders button..........................................passed
+Then orders page should be displayed........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Products with Order by Option" name="Click on order by dropdown and select" time="10.557">
+<system-out><![CDATA[
+Given Open Browser Home Page................................................passed
+When Click on by order and select...........................................passed
+Then Display List of products...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="View offers for products in bstackdemo" name="Click on offers and see available offers in your area" time="39.484">
+<system-out><![CDATA[
+Given Default home page will open in browser................................passed
+When Click on offers and view...............................................passed
+And Sign in if prompted.....................................................passed
+Then Display the message....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate the vendors brandwise products in bstackdemo" name="validate vendors feature - #1.1" time="16.346">
+<system-out><![CDATA[
+Given bstack demo home page opens...........................................passed
+When Enter Apple products list displayed....................................passed
+Then view the whole products of that brand..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate the vendors brandwise products in bstackdemo" name="validate vendors feature - #1.2" time="16.348">
+<system-out><![CDATA[
+Given bstack demo home page opens...........................................passed
+When Enter Samsung products list displayed..................................passed
+Then view the whole products of that brand..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate the vendors brandwise products in bstackdemo" name="validate vendors feature - #1.3" time="17.099">
+<system-out><![CDATA[
+Given bstack demo home page opens...........................................passed
+When Enter Oneplus products list displayed..................................passed
+Then view the whole products of that brand..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate the vendors brandwise products in bstackdemo" name="validate vendors feature - #1.4" time="16.642">
+<system-out><![CDATA[
+Given bstack demo home page opens...........................................passed
+When Enter google products list displayed...................................passed
+Then view the whole products of that brand..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate favourites functionality in bstackdemo" name="User accesses the favourites section by addind favourites" time="12.508">
+<system-out><![CDATA[
+Given bstack demo home page is open and clicks favourites icon of product...passed
+When user clicks on favouritesicon and add product to favourites............passed
+Then click on favourites and view...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Logout functionality in bstackdemo" name="User logs out successfully" time="13.361">
+<system-out><![CDATA[
+Given default logged in website opens.......................................passed
+When user clicks on logout button...........................................passed
+Then user should be logged out successfully.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

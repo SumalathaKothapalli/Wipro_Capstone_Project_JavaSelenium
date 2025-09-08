@@ -1,0 +1,12 @@
+StepDefnitions\AddandDeleteCartStep.class
+StepDefnitions\OrdersStep.class
+StepDefnitions\FavouritesStep.class
+StepDefnitions\TestRunner.class
+StepDefnitions\LogoutStep.class
+StepDefnitions\PageClass.class
+StepDefnitions\SearchStep.class
+StepDefnitions\CheckoutStep.class
+StepDefnitions\OrderByStep.class
+StepDefnitions\LoginStep.class
+StepDefnitions\VendorsStep.class
+StepDefnitions\OffersStep.class
