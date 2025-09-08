@@ -1,5 +1,5 @@
 Feature: Checkout process in bstackdemo
-Scenario Outline: Home Page checkout flow
+Scenario: Home Page checkout flow
 Given user opens the site and adds a product to the cart
 And user click on checkout button
 And user signs in with valid credentials
